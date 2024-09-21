@@ -1,0 +1,6 @@
+[package]
+name = "practice_rust_line_drawing_algorithm"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
