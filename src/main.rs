@@ -18,7 +18,7 @@ fn draw_line<T: Copy>(
     let y_step = dy as f64 / steps as f64;
     let mut x: f64 = start_x as f64;
     let mut y: f64 = start_y as f64;
-    for _ in 0..= steps {
+    for _ in 0..=steps {
         canvas[y.round() as usize][x.round() as usize] = brush;
         x += x_step;
         y += y_step;
